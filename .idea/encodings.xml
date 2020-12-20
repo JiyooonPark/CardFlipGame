@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="x-windows-949">
+    <file url="file://$PROJECT_DIR$/src/aboutGUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/hintGUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lecture10/ImageViewer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lecture10/MyPhoto.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/lecture10/assignment/ImageViewer_blackpink.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/madeGUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/menuGUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/restartGUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/settingGUI.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/timerGUI.java" charset="UTF-8" />
+    <file url="PROJECT" charset="x-windows-949" />
+  </component>
+</project>

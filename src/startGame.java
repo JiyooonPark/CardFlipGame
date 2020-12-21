@@ -18,7 +18,7 @@ public class startGame {
             neon = true;
 
 
-        //Thread¸¦ »ç¿ëÇØ¼­ °ÔÀÓÃ¢Àº °ÔÀÓÃ¢´ë·Î ÀÛµ¿ÇÏ°í ¼³¸íÃ¢Àº ¼³¸íÃ¢´ë·Î ÀÛµ¿ÇØ¼­ ¼³¸íÃ¢ÀÌ ¸îÃÊ ÈÄ ²¨Áö°Ô ÇÏ¿´½À´Ï´Ù.
+        //Threadë¥¼ ì‚¬ìš©í•´ì„œ ê²Œì„ì°½ì€ ê²Œì„ì°½ëŒ€ë¡œ ì‘ë™í•˜ê³  ì„¤ëª…ì°½ì€ ì„¤ëª…ì°½ëŒ€ë¡œ ì‘ë™í•´ì„œ ì„¤ëª…ì°½ì´ ëª‡ì´ˆ í›„ êº¼ì§€ê²Œ í•˜ì˜€ìŠµë‹ˆë‹¤.
         gameManager gameManager = new gameManager(width, height,neon);
         aboutGUIThread aboutThread = new aboutGUIThread();
         gameManager.start();

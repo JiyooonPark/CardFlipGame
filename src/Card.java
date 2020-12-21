@@ -20,9 +20,9 @@ class Card {
 
         //카드 뒷면의 이미지 만들기
         if(neon==true)
-            imgIcon_back = new ImageIcon("src/img/neon/background.jpg");
+            imgIcon_back = new ImageIcon("src/img/neon/background.JPG");
         else
-            imgIcon_back = new ImageIcon("src/img/basic/java.jpg");
+            imgIcon_back = new ImageIcon("src/img/basic/java.JPG");
         Image newimg_java = resize(imgIcon_back);
         imgIcon_back = new ImageIcon(newimg_java);
 

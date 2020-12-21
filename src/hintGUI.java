@@ -38,9 +38,9 @@ public class hintGUI extends JFrame {
         //리사이징 + 이미지 넣기
         for(int i=0; i<20; i++){
             if(neon == true)
-                imgIcon[i] = new ImageIcon("src/img/neon/"+(i+1)+".jpg");
+                imgIcon[i] = new ImageIcon("src/img/neon/"+(i+1)+".JPG");
             else
-                imgIcon[i] = new ImageIcon("src/img/basic/"+(i+1)+".jpg");
+                imgIcon[i] = new ImageIcon("src/img/basic/"+(i+1)+".JPG");
             Image newimg = resize(imgIcon[i]);
             imgIcon[i] = new ImageIcon(newimg);
         }

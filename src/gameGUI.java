@@ -90,18 +90,18 @@ public class gameGUI extends JFrame implements ActionListener{
 
         //카드 뒷면의 이미지 만들기
         if(neon==true)
-            imgIcon_back = new ImageIcon("src/img/neon/background.jpg");
+            imgIcon_back = new ImageIcon("src/img/neon/background.JPG");
         else
-            imgIcon_back = new ImageIcon("src/img/basic/java.jpg");
+            imgIcon_back = new ImageIcon("src/img/basic/java.JPG");
         Image newimg_java = resize(imgIcon_back);
         imgIcon_back = new ImageIcon(newimg_java);
 
         //카드 앞면의 이미지 만들기 : 리사이징 + 이미지 넣기
         for(int i=0; i<20; i++){
             if(neon == true)
-                imgIcon[i] = new ImageIcon("src/img/neon/"+(i+1)+".jpg");
+                imgIcon[i] = new ImageIcon("src/img/neon/"+(i+1)+".JPG");
             else
-                imgIcon[i] = new ImageIcon("src/img/basic/"+(i+1)+".jpg");
+                imgIcon[i] = new ImageIcon("src/img/basic/"+(i+1)+".JPG");
             Image newimg = resize(imgIcon[i]);
             imgIcon[i] = new ImageIcon(newimg);
         }
@@ -185,9 +185,9 @@ public class gameGUI extends JFrame implements ActionListener{
         if(size >= 12) {
             for (int i = 0; i < 12; i++) {
                 if (neon == true)
-                    imgIcon_ty[i] = new ImageIcon("src/img/neon/ty/ty_neon_" + (i + 1) + ".jpg");
+                    imgIcon_ty[i] = new ImageIcon("src/img/neon/ty/ty_neon_" + (i + 1) + ".JPG");
                 else
-                    imgIcon_ty[i] = new ImageIcon("src/img/basic/ty/ty_" + (i + 1) + ".jpg");
+                    imgIcon_ty[i] = new ImageIcon("src/img/basic/ty/ty_" + (i + 1) + ".JPG");
                 Image newimg = resize(imgIcon_ty[i]);
                 imgIcon_ty[i] = new ImageIcon(newimg);
                 deck[i].label.setIcon(imgIcon_ty[i]);
@@ -203,9 +203,9 @@ public class gameGUI extends JFrame implements ActionListener{
         else{
 //            System.out.print("else");
             if (neon == true)
-                imgIcon_ty[0] = new ImageIcon("src/img/neon/ty/ty_neon_" + 12 + ".jpg");
+                imgIcon_ty[0] = new ImageIcon("src/img/neon/ty/ty_neon_" + 12 + ".JPG");
             else
-                imgIcon_ty[0] = new ImageIcon("src/img/basic/ty/ty_" + 12 + ".jpg");
+                imgIcon_ty[0] = new ImageIcon("src/img/basic/ty/ty_" + 12 + ".JPG");
             Image newimg = resize(imgIcon_ty[0]);
             imgIcon_ty[0] = new ImageIcon(newimg);
             for(int i=0; i<size; i++){
